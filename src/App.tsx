@@ -63,25 +63,6 @@ function App() {
         <button id="sdk-button" onClick={handleShowSDK}>
           show SDK
         </button>
-        {/* {showSdk && (
-          <div>
-            <iframe
-              id="sdk-iframe"
-              src={widgetURL}
-              style={{
-                position: "fixed",
-                right: "20px",
-                bottom: "20px",
-                width: "400px",
-                height: "600px",
-                border: "none",
-                borderRadius: "8px",
-                boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
-                zIndex: 9999,
-              }}
-            />
-          </div>
-        )} */}
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
