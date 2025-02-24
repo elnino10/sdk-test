@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     // get tenant key from organisation data
-    setTenantKey("tenant_key");
+    setTenantKey("impresa_consults_euevB");
   }, []);
 
   useEffect(() => {
