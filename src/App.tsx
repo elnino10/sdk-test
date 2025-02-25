@@ -11,7 +11,7 @@ function App() {
   const [tenantKey, setTenantKey] = useState("");
 
   const hostUrl = window.location.origin;
-  const widgetURL = "http://localhost:5174";
+  const widgetURL = "http://localhost:5174"; // replace with actual url of widget
 
   let sdk: SDK;
   const onClose: () => void = () => {
@@ -20,7 +20,9 @@ function App() {
 
   useEffect(() => {
     // get tenant key from organisation data
-    setTenantKey("impresa_consults_euevB");
+    // A user can belong to multiple organisations but only the tenant key of 
+    // of the selected organisation will be retrieved for use here
+    setTenantKey("impresa_consults_cH5fi");
   }, []);
 
   useEffect(() => {
